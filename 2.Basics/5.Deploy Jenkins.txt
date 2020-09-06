@@ -1,0 +1,14 @@
+Steps:
+
+Step1:  yum update -y
+Step2:  yum install epel-release -y
+Step3:  yum install java-11-openjdk-devel -y
+Step4:  Verify Installed java with: java -version
+Step5:  yum install wget -y
+Step6:  wget http://apachemirror.wuchna.com/tomcat/tomcat-9/v9.0.37/bin/apache-tomcat-9.0.37.tar.gz
+Step7:  tar -xvf apache-tomcat-9.0.37.tar.gz
+Step8:  mv apache-tomcat-9.0.37 tomcat9
+Step9:  rm -rf apache-tomcat-9.0.37.tar.gz
+Step10: echo "export CATALINA_HOME="/usr/local/tomcat9"" >> ~/.bashrc && source ~/.bashrc
+Step11: cd /usr/local/tomcat9/webapps && wget https://get.jenkins.io/war-stable/2.235.5/jenkins.war
+Step12: /usr/local/tomcat9/bin/startup.sh

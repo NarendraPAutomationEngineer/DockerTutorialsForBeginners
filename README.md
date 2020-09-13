@@ -13,3 +13,6 @@ Ansible
 
 # Get All Above courses freely for first two months from skillshare using below reference link
  [SkillShare Reference Link](https://www.skillshare.com/r/user/narendrap)
+ 
+ # You can also watch some basic concepts of like shell, python, AWS Automation, REST APIs and Basics of Docker from YouTube Channel
+ [Do Subscribe My Channel To get More Updates] (https://www.youtube.com/AutomationwithScripting)
